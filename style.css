@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(162, 32, 162);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+}
+
+header img{
+    padding: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+header img:hover{
+    height: 25px;
+    transition-duration: 700ms;
+}
+
+
+header h1{
+    color: purple;
+    position: relative;
+    top: 8px;
+
+}
+
+
+
+main{
+    background-color: black;
+    margin: 20px;
+    height: calc(max-content + 10px);
+    border-radius: 10px;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px,400px));
+    gap:20px;
+
+}
+
+main .itens{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: max-content;
+    padding: 10px;
+}
