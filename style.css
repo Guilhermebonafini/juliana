@@ -22,7 +22,7 @@ header img{
 }
 
 header img:hover{
-    height: 25px;
+    height: 40px;
     transition-duration: 700ms;
 }
 
@@ -34,18 +34,17 @@ header h1{
 
 }
 
-
-
 main{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.503);
     margin: 20px;
-    height: calc(max-content + 10px);
+    padding: 20px;
     border-radius: 10px;
     margin-right: 150px;
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px,400px));
+    grid-template-columns: repeat(3, minmax(200px,400px));
     gap:20px;
-
+    height: 80%;
+    width: max-content;
 }
 
 main .itens{
@@ -54,4 +53,25 @@ main .itens{
     border: 1px solid white;
     width: max-content;
     padding: 10px;
+    box-shadow: 1px 1px 10px;
+}
+
+#shorts iframe{
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 40px;
+    position: relative;
+    box-shadow: 1px 1px 10px;
+}
+
+#shorts{
+    background-color: rgba(0, 0, 0, 0.503);
+    margin: 20px;
+    width: max-content;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 90px;
+   
 }
